@@ -1,0 +1,33 @@
+body{
+    background-image: url("blur.jfif");
+    background-repeat: no-repeat;
+    background-size: 1421px 737px;
+    }
+
+.list{
+    border: 1px;
+    margin-top: 260px;
+    text-align: center;
+     }
+          
+body{
+    background-image: url("blur.jfif");
+    background-repeat: no-repeat;
+    background-size: 1421px 737px;
+    } 
+              
+.list button{
+    background-color :rgba(53, 107, 177, 0.527);
+    border: none;
+    color: white;
+    border: 1px solid rgb(250, 247, 247);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px 
+            }
+          
+.list button:hover {
+    background-color:royalblue;
+            }        
