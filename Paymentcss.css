@@ -1,0 +1,29 @@
+.s1 label {            
+    margin: 5px 10px 5px 0;
+    color: black;
+  }
+
+.s1 {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  } 
+
+.s1{
+    width: auto;
+    height : auto;
+    background-color: lightgreen ;
+    text-align: center;
+    padding-left: 500px;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-top: auto;
+ }
+
+.s2{
+    text-align: center;
+}
+
+.s{
+    text-align: center;
+}

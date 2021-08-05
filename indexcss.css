@@ -1,13 +1,6 @@
-.s{
-        border: 1px;
-        margin-top: 200px;
-        text-align: center;
-      }
-    
+
 body{
-        background-image: url("blur.jfif");
-        background-repeat: no-repeat;
-        background-size: 1421px 737px;
+        background-color: white;
         } 
         
 .s button{
@@ -20,33 +13,21 @@ body{
     }  
 
 .header {
-        padding: 1px;
-        text-align: center;
-        border: 1px solid rgb(250, 247, 247);
-        background: #3a738a;
-        color: white;
-        font-size: 30px;
+        padding: 35px;
+        text-align: inline-block;
+        border: 1px solid rgb(250, 2, 2);
+        background: white;
+        color:red;
+        font-size: 20px;
+        border-radius: 5PX;
+        border-width: 4PX;
     }
 
-.bottom{
-     padding-top: 163px;
-     padding-left: 1210px;
+.s{
+  padding:108px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-   
-.bottom button{
-    background-color :rgba(53, 107, 177, 0.527);
-    color: white;
-    border: 1px solid rgb(250, 247, 247);
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 16px
-}  
 
-.s button:hover {
-    background-color: royalblue;
-  }
 
-.bottom button:hover {
-    background-color: royalblue;
-  }
 

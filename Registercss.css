@@ -70,19 +70,14 @@ body{
       font-size: 30px;
   }
 
-.s1 button{
-  padding: 10px 20px;
-  background-color: dodgerblue;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-}
-
-.s1 button:hover {
-  background-color: royalblue;
-}
-
-.s1{
-  padding-top: 1px;
-  padding-right: 1200px;
-}
+  .btn {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: RoyalBlue;
+  }

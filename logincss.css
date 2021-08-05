@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
 }
 
-.form-inline label {
+.form-inline label {            gap
   margin: 5px 10px 5px 0;
   color: white;
 }
@@ -20,7 +20,6 @@ body {
 }
 
 .form-inline input {
-  vertical-align: middle;
   margin: 5px 10px 5px 0;
   padding: 10px;
   background-color: #fff;
@@ -38,7 +37,7 @@ body {
 .form-inline{
         width: 200px;
         height : 450px;
-        background-color : transparent :
+        background-color : transparent ;
     }
 
     fieldset{
@@ -86,4 +85,6 @@ body{
   color: white;
   cursor: pointer;
 }
+
+
 
