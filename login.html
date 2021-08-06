@@ -38,25 +38,17 @@
   <script>
     function login() {
       event.preventDefault();
-      const name2 = "sudharsanan";
-      const password2 = "sudharsanan4";
       const name1 = document.querySelector("#name").value;
       if (name1 == "" || name1 == null) {
-        alert("invalid_Name");
+        alert("Enter Your Name");
         return false;
       }
       const password1 = document.querySelector("#pswd").value;
       if (password1 == "" || password1 == null) {
-        alert("invalid_password");
+        alert("Enter password");
         return false;
       }
-      if (name1 == name2 && password1 == password2) {
-        alert("Verified");
-        window.location.href = "listTask.html";
-      }
-      else {
-        alert("Ivalid Name and Password");
-      }
+      window.location.href = "listTask.html";
     }
   </script>
 
