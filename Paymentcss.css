@@ -1,29 +1,61 @@
 .s1 label {            
-    margin: 5px 10px 5px 0;
+    padding: 10px;
     color: black;
   }
 
+.s1 input{
+    padding: 10px;
+}
+
 .s1 {  
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
   } 
 
 .s1{
-    width: auto;
-    height : auto;
-    background-color: lightgreen ;
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+.s1{
+    padding-left: 470px;
+}
+
+
+.s1 input{
+    margin:10px;
+    width: 100px;
+    height : 10px;
     text-align: center;
-    padding-left: 500px;
-    padding-top: auto;
-    padding-bottom: auto;
-    padding-top: auto;
+    padding-left: 50px;
+    padding-right: 70px;
  }
 
-.s2{
+ .s1{
+     background-color: lightgreen;
+ }
+
+.s1{
     text-align: center;
 }
 
 .s{
     text-align: center;
+    color: white;
 }
+
+.s1 button{
+    background-color : lightyellow ;
+    color: black;
+    border: 1px solid : black;
+    padding: 4px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px 
+}
+
+
+
+body{
+    background-color: cadetblue;
+  }

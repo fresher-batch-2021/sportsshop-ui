@@ -1,41 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel = "stylesheet" href="logincss.css"/>
-
-</head>  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="logincss.css">
+  <title>Document</title>
+</head>
 
 <body>
+  <div class="header">
+    <h1>Login Form</h1>
+  </div>
 
-<div class="header">  
-    <p>Login</p>
-</div>
+  <div class="s">
+    <form onsubmit="loginpage()">
+      <label for="name">Name:</label>
+      <input type="name" id="name" placeholder="Enter name" name="name">
+      <br>
 
-<fieldset class="form-inline">
+      <label for="password">Password:</label>
+      <input type="password" id="pswd" placeholder="Enter password" name="pwd">
+      <br>
 
-<form class="form-inline" action = "listTask.html">
-  <label for="name">Name:</label>
-  <input type="name" id="name" placeholder="Enter name" name="name" required autofocus>
-  <label for="email">Email:</label>
-  <input type="email" id="email" placeholder="Enter email" name="email" required autofocus>
-  <label for="password">Password:</label>
-  <input type="password" id="pswd" placeholder="Enter password" name="pwd" required autofocus>
-  
+      <button type="submit">Submit</button>
+    </form>
 
-  <button type="submit">Submit</button>
-</form>
+    <br>
 
-</fieldset>
+    <button>
+      <a href="Register.html">Create a new account</a>
+    </button>
 
-<div class="new">
-<form action = "Register.html">
-  
-<button type="submit">Create a new account</button>
-  
-</form>
-</div>
+  </div>
+
+  <script>
+    function loginpage() {
+      event.preventDefault();
+      const name2 = "sudharsanan";
+      const password2 = "sudharsanan4";
+      const name1 = document.querySelector("#name").value;
+      if (name1 == "" || name1 == null) {
+        alert("invalid_Name");
+        return false;
+      }
+      const password1 = document.querySelector("#pswd").value;
+      if (password1 == "" || password1 == null) {
+        alert("invalid_password");
+        return false;
+      }
+      if (name1 == name2 && password1 == password2) {
+        alert("Verified");
+        window.location.href = "listTask.html";
+      }
+      else {
+        alert("Ivalid Name and Password");
+      }
+    }
+  </script>
 
 </body>
+
 </html>

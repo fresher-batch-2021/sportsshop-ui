@@ -1,0 +1,39 @@
+.s1{
+    background-color: lightgreen;
+    margin-top: 50px;
+    padding: 50px;
+    padding-left: 550px;
+}
+
+.s1 input{
+padding: 10px;
+}
+
+.s1 label{
+    padding: 10px;
+}
+
+.s1 input{
+    margin: 10px;
+    width: 150px;
+    }
+
+
+.s{
+    text-align: center;
+    padding-top: 25px;
+}
+
+body{
+    background-color: cadetblue;
+  }
+
+button{
+    background-color : lightyellow ;
+    color: black;
+    border: 1px solid : black;
+    padding: 4px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}

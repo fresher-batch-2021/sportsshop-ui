@@ -1,19 +1,85 @@
+ .s{
+   text-align: center;
+ }
+
  .card button {
     padding: 10px;
-    color: white;
-    background-color: #000;
+    color:black;
+    background-color: lightgoldenrodyellow;
     text-align: center;
     cursor: pointer;
     width: 10%;
     font-size: 18px;
   }
 
+  .card1 button {
+    padding: 10px;
+    color:black;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    cursor: pointer;
+    width: 10%;
+    font-size: 18px;
+  }
+
+  .card2 button {
+    padding: 10px;
+    color:black;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    cursor: pointer;
+    width: 10%;
+    font-size: 18px;
+  }
+
+  .card3 button {
+    padding: 10px;
+    color:black;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    cursor: pointer;
+    width: 10%;
+    font-size: 18px;
+  }
+
+  .card{
+    align-items: center;
+    text-align: center;
+    background-color: lightgreen;
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+ .card1{
+   background-color: lightgreen;
+   padding:10px;
+   margin-left: 150px;
+   margin-right: 150px;
+ }
+
+ .card2{
+  background-color: lightgreen;
+  padding:10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.card3{
+  background-color: lightgreen;
+  padding:10px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
   
 .card button:hover {
     opacity: 0.7;
   }
 
-
+body{
+  background-color: cadetblue;
+}
 
 
 

@@ -1,33 +1,39 @@
-body{
-    background-image: url("blur.jfif");
-    background-repeat: no-repeat;
-    background-size: 1421px 737px;
-    }
-
 .list{
     border: 1px;
-    margin-top: 260px;
+    margin-top: 80px;
     text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
      }
           
 body{
-    background-image: url("blur.jfif");
-    background-repeat: no-repeat;
-    background-size: 1421px 737px;
-    } 
+    background-color: lightgreen;
+   } 
               
 .list button{
-    background-color :rgba(53, 107, 177, 0.527);
-    border: none;
-    color: white;
-    border: 1px solid rgb(250, 247, 247);
+    background-color : lightyellow ;
+    color: black;
+    border: 1px solid : black;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px 
             }
           
 .list button:hover {
-    background-color:royalblue;
+    opacity: 0.7;
             }        
+
+ body{
+      background-color: cadetblue;
+}
+
+.list{
+    background-color: lightgreen;
+    padding: 80px;
+}
+
+.header{
+    text-align: center;
+    padding-top: 70px;
+}
