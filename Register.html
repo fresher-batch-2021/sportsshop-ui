@@ -56,11 +56,11 @@
           alert("invalid password");
           return false;
         }
-        
+
         const cpwd = document.querySelector("#cpswd").value;
         console.log(cpwd);
         if (pwd != cpwd) {
-          alert("password doesn't");
+          alert("password doesn't match");
           return false;
         }
 
@@ -75,7 +75,7 @@
 
         console.log(userObj);
 
-        alert("Registration Successful");
+        alert("Registration Successfull");
         window.location.href = "login.html";
       }
 
