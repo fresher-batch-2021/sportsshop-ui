@@ -30,7 +30,7 @@
             <input type="landmark" id="landmark" name="landmark" placeholder="(optional)">
             <br>
             <label for="phoneno">Phone No</label>
-            <input type="phoneno" id="phoneno" name="phoneno" placeholder="Enter Your Phone No">
+            <input type="phoneno" id="phoneno" name="phoneno" placeholder="Enter Your Phone No" maxlength="10" minlength="10">
             <br>
             <br>
 
@@ -38,7 +38,16 @@
 
         </form>
     </div>
-
+<script>
+    function page(){
+        event.preventDefault();
+        const name2=document.querySelector(#name).value;
+        if(name2 == "" || name2 == null){
+            alert("Enter Your Name");
+            return false;
+        }
+    }
+    </script>
 </body>
 
 </html>

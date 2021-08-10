@@ -16,8 +16,8 @@
 
   <div class="s">
     <form onsubmit="login()">
-      <label for="name">Name:</label>
-      <input type="name" id="name" placeholder="Enter name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter email" name="email">
       <br>
 
       <label for="password">Password:</label>
@@ -38,9 +38,9 @@
   <script>
     function login() {
       event.preventDefault();
-      const name1 = document.querySelector("#name").value;
-      if (name1 == "" || name1 == null) {
-        alert("Enter Your Name");
+      const email1 = document.querySelector("#email").value;
+      if (email1 == "" || email1 == null) {
+        alert("Enter Your Email");
         return false;
       }
       const password1 = document.querySelector("#pswd").value;
