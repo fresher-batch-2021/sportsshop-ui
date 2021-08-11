@@ -45,14 +45,14 @@
  .card{
    align-items: center;
    text-align: center;
-   background-color: lightgreen;
+   background-color: lightgray;
    padding: 10px;
    margin-left: 150px;
    margin-right: 150px;
  }
 
 .card1{
-  background-color: lightgreen;
+  background-color: lightgray;
   padding:10px;
   align-items: center;
   text-align: center;
@@ -61,14 +61,14 @@
 }
 
 .card2{
- background-color: lightgreen;
+ background-color: lightgray;
  padding:10px;
  margin-left: 150px;
  margin-right: 150px;
 }
 
 .card3{
- background-color: lightgreen;
+ background-color: lightgray;
  padding:10px;
  margin-left: 150px;
  margin-right: 150px;
