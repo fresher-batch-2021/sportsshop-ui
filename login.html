@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="logincss.css">
   <title>Document</title>
+  <script src="login.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
     integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -14,6 +15,7 @@
 </head>
 
 <body>
+
   <div class="header">
     <h1>Login Form</h1>
   </div>
@@ -38,42 +40,6 @@
     </button>
 
   </div>
-
-  <script>
-    function login() {
-      event.preventDefault();
-      const email1 = document.querySelector("#email").value;
-      if (email1 == "" || email1 == null) {
-        alert("Enter Your Email");
-        return false;
-      }
-      const password1 = document.querySelector("#pswd").value;
-      if (password1 == "" || password1 == null) {
-        alert("Enter password");
-        return false;
-      }
-
-      let url = "https://product-mock-api.herokuapp.com/sportsshopapp/api/v1/auth/login";
-      let formData = {
-        email: email1,
-        password: password1
-      }
-
-      axios.post(url, formData).then(res => {
-        let data = res.data;
-        console.log(data);
-        alert("Successffully Login");
-        window.location.href = "listTask.html";
-      }).catch(err => {
-        let errorMessage = err.response.data.errorMessage;
-        console.error(errorMessage);
-        alert("Error-" + errorMessage);
-      });
-
-    }
-
-
-  </script>
 
 </body>
 

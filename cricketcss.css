@@ -8,7 +8,7 @@
     background-color: lightgoldenrodyellow;
     text-align: center;
     cursor: pointer;
-    width: 10%;
+    width: 15%;
     font-size: 18px;
   }
 
@@ -18,7 +18,7 @@
     background-color: lightgoldenrodyellow;
     text-align: center;
     cursor: pointer;
-    width: 10%;
+    width: 15%;
     font-size: 18px;
   }
 
@@ -28,7 +28,7 @@
     background-color: lightgoldenrodyellow;
     text-align: center;
     cursor: pointer;
-    width: 10%;
+    width: 15%;
     font-size: 18px;
   }
 
@@ -38,12 +38,11 @@
     background-color: lightgoldenrodyellow;
     text-align: center;
     cursor: pointer;
-    width: 10%;
+    width: 15%;
     font-size: 18px;
   }
 
   .card{
-    align-items: center;
     text-align: center;
     background-color: lightgray;
     padding: 10px;

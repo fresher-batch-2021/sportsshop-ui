@@ -1,4 +1,11 @@
-    .s input {
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+.s input {
 
     padding: 10px;
     font-size: small;

@@ -1,3 +1,11 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+
 .s button{
         background-color :rgba(53, 107, 177, 0.527);
         color: white;
@@ -10,15 +18,18 @@
 .header {
         padding: 35px;
         text-align: inline-block;
-        border: 4px solid rgb(167, 117, 117);
+       /* border: 4px solid rgb(167, 117, 117);*/
         background: lightgray;
         color:red;
         font-size: 20px;
+        
     }
 
 .s1{
   text-align: center;
   color: white;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
 body{

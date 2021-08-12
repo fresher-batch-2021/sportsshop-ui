@@ -1,3 +1,9 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
 .s{
   text-align: center;
 }
@@ -8,7 +14,7 @@
    background-color: lightgoldenrodyellow;
    text-align: center;
    cursor: pointer;
-   width: 10%;
+   width: 15%;
    font-size: 18px;
  }
 
@@ -18,7 +24,7 @@
    background-color: lightgoldenrodyellow;
    text-align: center;
    cursor: pointer;
-   width: 10%;
+   width: 15%;
    font-size: 18px;
  }
 
@@ -28,7 +34,7 @@
    background-color: lightgoldenrodyellow;
    text-align: center;
    cursor: pointer;
-   width: 10%;
+   width: 15%;
    font-size: 18px;
  }
 
@@ -38,7 +44,7 @@
    background-color: lightgoldenrodyellow;
    text-align: center;
    cursor: pointer;
-   width: 10%;
+   width: 15%;
    font-size: 18px;
  }
 
