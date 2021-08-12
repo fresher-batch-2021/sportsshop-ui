@@ -16,9 +16,7 @@
 
 <body>
 
-  <div class="header">
-    <h1>Login Form</h1>
-  </div>
+  <header id="header"></header>
 
   <div class="s">
     <form onsubmit="login()">
@@ -40,6 +38,11 @@
     </button>
 
   </div>
+
+  <script src="jquery.min.js"></script>
+  <script>
+  $("#header").load("header.html");
+  </script>
 
 </body>
 

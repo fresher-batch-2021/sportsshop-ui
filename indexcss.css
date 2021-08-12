@@ -1,10 +1,7 @@
-*
-{
+*{
   margin: 0;
   padding: 0;
 }
-
-
 
 .s button{
         background-color :rgba(53, 107, 177, 0.527);
@@ -28,7 +25,7 @@
 .s1{
   text-align: center;
   color: white;
-  padding-top:15px;
+  padding-top:240px;
   padding-bottom:15px;
 }
 
