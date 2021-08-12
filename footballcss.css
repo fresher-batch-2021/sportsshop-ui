@@ -69,6 +69,8 @@
 .card2{
  background-color: lightgray;
  padding:10px;
+ align-items: center;
+ text-align: center;
  margin-left: 150px;
  margin-right: 150px;
 }
@@ -76,6 +78,8 @@
 .card3{
  background-color: lightgray;
  padding:10px;
+ align-items: center;
+ text-align: center;
  margin-left: 150px;
  margin-right: 150px;
 }
