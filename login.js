@@ -20,8 +20,8 @@ function login() {
     axios.post(url, formData).then(res => {
       let data = res.data;
       console.log(data);
-      alert("Successffully Login");
-      window.location.href = "listTask.html";
+      alert("Successfully Login");
+      window.location.href = "home.html";
     }).catch(err => {
       let errorMessage = err.response.data.errorMessage;
       console.error(errorMessage);

@@ -40,7 +40,8 @@ function register() {
     let formData = {
       name: name,
       email: email,
-      password: pwd
+      password: pwd,
+      cpwd:cpwd
     }
 
     axios.post(url, formData).then(res => {
