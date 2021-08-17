@@ -1,87 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title></title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="cricketcss.css">
+        <script src="cricket.js" async></script>
+    </head>
+    <body>
 
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="cricketcss.css">
-      <title>Document</title>
-</head>
+        <header id="header"></header><br><br><br><br><br><br>
+       
+        <div class="topcart">
+        <section class="container content-section">
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">CEAT BAT</span>
+                    <img class="shop-item-image" src="pbat.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">RS.900</span>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
 
-<body>
-      
-      <header id="header"></header><br>
+                <div class="shop-item">
+                    <span class="shop-item-title">MRF BAT</span>
+                    <img class="shop-item-image" src="pbat2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">RS.800</span>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
 
-      <div class="card">
-         
-                  <img src="pbat.jpg" alt="CEAT Bat" style="width:10%">
-                  <h2>CEAT BAT</h2><br>
-                  <h4>Highlights : <br><br>
-                        Age Group 15+ Yrs<br>
-                        Blade Made of Kashmir Willow<br>
-                        Advanced Playing Level<br>
-                        Bat Grade: Grade 1<br>
-                        Sport Type: Cricket<br>
-                        Weight Range 1120 - 1200 g </h4><br>
-                  <h2>₹4000</h2><br>
-                  <button><a href="payment.html">Add To Cart</a></button>
-           
-      </div>
-      <br>
-      <div Class="card1" style="text-align:center">
-           
-                  <img src="pbat2.jpg" alt="MRF Bat" style="width:10%">
-                  <h2>MRF BAT</h2>
-                  <h4>Highlights : <br><br>
-                        Age Group 15+ Yrs <br>
-                        Blade Made of Poplar Willow <br>
-                        Training, Beginner, Advanced Playing Level <br>
-                        Bat Grade: Grade 1 <br>
-                        Sport Type: Cricket <br>
-                        With Cover <br>
-                        Weight Range 1000-1200 g </h4><br>
-                  <h2>₹5000</h2><br>
-                  <button><a href="payment.html">Add To Cart</a></button>
-            
-      </div>
-      <br>
-      <div Class="card2" style="text-align:center">
-         
-                  <img src="pball1.jpg" alt="pink ball" style="width:10%">
-                  <h2>PINK BALL</h2><br>
-                  <h4>Highlights : <br><br>
-                        Cricket Leather Ball <br>
-                        Water Resistant <br>
-                        Outer Material: Leather <br>
-                        Core Material: Cork <br>
-                        Weight: 450-600 g </h4><br>
-                  <h2>₹500</h2><br>
-                  <button><a href="payment.html">Add To Cart</a></button>
-           
-      </div>
-      <br>
-      <div Class="card3" style="text-align:center">
-          
-                  <img src="pball2.jpg" alt="white ball" style="width:10%">
-                  <h2>white ball</h2><br>
-                  <h4>Highlights : <br><br>
-                        Cricket Leather Ball <Br>
-                        Water Resistant <br>
-                        Outer Material: Leather <br>
-                        Weight: 150-170 g <br>
-                        Suitable for: Dry, Wet Pitch </h4><br>
-                  <h2>₹300</h2><br>
-                  <button><a href="payment.html">Add To Cart</a></button>
-      
-      </div>
-      
+                <div class="shop-item">
+                    <span class="shop-item-title">PINK BALL</span>
+                    <img class="shop-item-image" src="pball1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3.99</span>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
 
-      <script src="jquery.min.js"></script>
-      <script>
-      $("#header").load("header.html");
-      </script>
+                <div class="shop-item">
+                    <span class="shop-item-title">WHITE BALL</span>
+                    <img class="shop-item-image" src="pball2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2.99</span>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
 
-</body>
+            </div>
+        </section>
+        </div> <br><br><br><br><br><br>
+        <div class="cartsection">
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2><br><br>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+           <a href = "payment.html"> <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button> </a>
+        </section>
+       </div>
 
+       <script src="jquery.min.js"></script>
+       <script>
+             $("#header").load("header.html");
+       </script>
+
+    </body>
 </html>

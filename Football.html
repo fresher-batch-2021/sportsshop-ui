@@ -1,81 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <title></title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="cricketcss.css">
+        <script src="football.js" async></script>
+    </head>
+    <body>
 
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      <link rel="stylesheet" href="footballcss.css" />
-</head>
+        <header id="header"></header><br><br><br><br><br><br>
+       
+        <div class="topcart">
+        <section class="container content-section">
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Adidas Foot Ball</span>
+                    <img class="shop-item-image" src="football1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10.99</span>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
 
-<body>
+                <div class="shop-item">
+                    <span class="shop-item-title">Foot Ball</span>
+                    <img class="shop-item-image" src="football2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$8.99</span>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
 
-      <header id="header"></header><br>
+                <div class="shop-item">
+                    <span class="shop-item-title">Foot Ball with Pump</span>
+                    <img class="shop-item-image" src="footballpump.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$20.99</span>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
 
-                  <div class="card">
+                <div class="shop-item">
+                    <span class="shop-item-title">Pump</span>
+                    <img class="shop-item-image" src="pump.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3.99</span>
+                        <button class="button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
 
-                        <img src="football1.jpg" alt="CEAT Bat" style="width:10%">
-                        <h2>Adidas Foot ball</h2><br>
-                        <h4>
-                              Highlights : <br><br>
-                              Football <br>
-                              Water Resistant <br>
-                              Outer Material: TPU construction ensures soft touch <br>
-                              Weight: 425 g <br>
-                              Suitable for: Turf <br>
-                        </h4><br>
-                        <h2 id="price">₹500</h2><br>
-                        <button><a href="payment.html">Add To Cart</a></button>
+            </div>
+        </section>
+        </div> <br><br><br><br><br><br>
+        <div class="cartsection">
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2><br><br>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+       </div>
 
-                  </div>
+       <script src="jquery.min.js"></script>
+       <script>
+             $("#header").load("header.html");
+       </script>
 
-                  <br>
-                  <div class="card1">
-
-                        <img src="football2.jpg" alt="CEAT Bat" style="width:10%">
-                        <h2>Foot ball</h2>
-                        <h4><br>
-                              Highlights : <br><br>
-                              Material: Rubber <br>
-                              Age: 3+ Years <br>
-                        </h4><br>
-                        <h2>₹454</h2><br>
-                        <button><a href="payment.html">Add To Cart</a></button>
-
-                  </div>
-                  <br>
-                  <div class="card2">
-
-                        <img src="footballpump.jpeg" alt="Foot ball" style="width:10%">
-                        <h2>Foot ball with Pump</h2><br>
-                        <h4> Highlights : <br><br>
-                              Sport Type: Football <br>
-                              Ideal For: Junior, Senior <br>
-                              Color: Multicolor <br>
-                              Width: 27.5 cm, Height: 14.5 cm, Depth: 12.3 cm </h4> <br>
-                        <h2>₹900</h2><br>
-                        <button><a href="payment.html">Add To Cart</a></button>
-
-                  </div>
-                  <br>
-                  <div class="card3">
-
-                        <img src="pump.jpeg" alt="Foot ball" style="width:10%">
-                        <h2>Foot ball Pump</h2><br>
-                        <h4>Highlights :<br><br>
-                              For Football Pump <br>
-                              <h4><br>
-                                    <h2>₹99</h2><br>
-                                    <button><a href="payment.html">Add To Cart</a></button>
-
-                  </div>
-
-                  <script src="jquery.min.js"></script>
-                  <script>
-                        $("#header").load("header.html");
-                  </script>
-
-</body>
-
+    </body>
 </html>
