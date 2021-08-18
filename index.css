@@ -14,12 +14,26 @@
     background-color: cadetblue;
   }
   
-  .so{
+  .ss{
     padding:27px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
+  .s2{
+    padding-left: 850px;
+  }
   
+  body{
+    background-image: "assets/image/logo.png";
+    
+  }
+
+  .s{
+    text-align: center;
+    margin-top: 220px;
+    color: lightgrey;
+  }
   
   
   

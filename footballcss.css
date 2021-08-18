@@ -167,4 +167,13 @@ body{
   background-color: lightgrey;
 }
 
-
+.button{
+  background-color : lightyellow ;
+  color: black;
+  border: 1px solid : black;
+  padding: 10px 4px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin-left:5px;
+}

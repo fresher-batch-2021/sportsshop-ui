@@ -9,8 +9,15 @@ h1{
     padding-top: 200px;
 }
 
-.name{
-  padding-left: 1150px;
-  padding-top: 20px;
+.sok{
+  background-color: lightgrey;
+  margin: 180px;
+  margin-left: 550px;
+  margin-right: 550px;
+}
 
+.sok h1{
+  color: rgb(26, 22, 22);
+  padding: 30px;
+  
 }
