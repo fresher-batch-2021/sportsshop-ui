@@ -9,11 +9,11 @@ body{
 
 .s{
   text-align: center;
+  padding : 100px;
   padding-top: 280px;
   background-color: lightgray;
   margin: 200px;
   margin-left: 400px;
   margin-right: 400px;
-  padding : 100px;
 }
 
