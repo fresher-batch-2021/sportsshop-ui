@@ -41,7 +41,7 @@ function login() {
       } else {
         const users = data[0];
         console.log(loginData);
-        alert("successfull")
+        alert("successfull Login")
        window.location.href = "home.html";
       }
     }).catch(err => {
