@@ -1,12 +1,15 @@
 *{
     margin: 0;
+      box-sizing: border-box;
+      font-family: Raleway;
+      color: #1d0f0f;
     padding: 0;
   }
-  
+
   .header1 {
+    background-image: url("assets/image/logo.png");
           padding: 40px;
           background: lightgray;
-          color:red;
           font-size: 20px;
            }
  
@@ -15,25 +18,13 @@
   }
   
   .ss{
-    padding:27px;
+    padding:170px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-
-  .s2{
-    padding-left: 850px;
-  }
-  
-  body{
-    background-image: "assets/image/logo.png";
-    
   }
 
   .s{
     text-align: center;
     margin-top: 220px;
-    color: lightgrey;
+    color: rgb(15, 14, 14);
   }
-  
-  
-  
