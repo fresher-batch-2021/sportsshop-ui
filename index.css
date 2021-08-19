@@ -7,9 +7,8 @@
   }
 
   .header1 {
-    padding: 40px;
-    background: lightgray;
-    background-image: url("assets/image/logo.png");     
+          padding: 40px;
+          background: lightgray;
           font-size: 20px;
            }
  
@@ -27,4 +26,5 @@
     text-align: center;
     margin-top: 220px;
     color: rgb(15, 14, 14);
+    font-family: Georgia, Times, 'Times New Roman', serif ;
   }
