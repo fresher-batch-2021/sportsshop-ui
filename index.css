@@ -8,8 +8,8 @@
 
   .header1 {
     padding: 40px;
-    background-image: url("assets/image/logo.png");
-          background: lightgray;
+    background: lightgray;
+    background-image: url("assets/image/logo.png");     
           font-size: 20px;
            }
  
