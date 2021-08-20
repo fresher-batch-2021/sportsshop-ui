@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,51 @@
     <link rel="stylesheet" href="billcss.css">
     <title>Document</title>
 </head>
+
 <body>
+
+    <h1> Order Placed </h1>
     
-<div class="s">
-    <h1>Order Placed</h1>
-    </div>
+    <div class="table">
+    <table>
+        <caption></caption>
+        <tr>
+            <th scope="row"> Name:</th>
+            <td id="name"></td>
+        </tr>
+        <tr>
+            <th scope="row"> Adddres:</th>
+            <td id="address"></td>
+        </tr>
+        <tr>
+            <th scope="row"> Pin Code:</th>
+            <td id="pincode"></td>
+        </tr>
+        <tr>
+            <th scope="row"> Landmark:</th>
+            <td id="Landmark"></td>
+        </tr>
+        <tr>
+            <th scope="row"> Phone No:</th>
+            <td id="phoneno"></td>
+        </tr>
+        </table>
+        </div>
+
+
+    <script>
+
+        let addressFile = JSON.parse(localStorage.getItem('address'));
+       // console.log(addressFile);
+
+        document.querySelector("#name").innerHTML = addressFile.name1;
+        document.querySelector("#address").innerHTML = addressFile.address1;
+        document.querySelector("#pincode").innerHTML = addressFile.pincode1;
+        document.querySelector("#Landmark").innerHTML = addressFile.Landmark1;
+        document.querySelector("#phoneno").innerHTML = addressFile.phoneno1;
+
+    </script>
 
 </body>
+
 </html>

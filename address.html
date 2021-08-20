@@ -16,7 +16,7 @@
     </div>
 
     <div class="s1">
-        <form action="bill.html">
+        <form onsubmit="residential()">
             <label for="name">Name</label>
             <input type="name" id="name" name="name" placeholder="Enter Your Name">
             <br>
@@ -30,7 +30,8 @@
             <input type="landmark" id="landmark" name="landmark" placeholder="(optional)">
             <br>
             <label for="phoneno">Phone No</label>
-            <input type="phoneno" id="phoneno" name="phoneno" placeholder="Enter Your Phone No" maxlength="10" minlength="10">
+            <input type="phoneno" id="phoneno" name="phoneno" placeholder="Enter Your Phone No" maxlength="10"
+                minlength="10">
             <br>
             <br>
 
@@ -38,16 +39,54 @@
 
         </form>
     </div>
-<script>
-    function page(){
-        event.preventDefault();
-        const name2=document.querySelector(#name).value;
-        if(name2 == "" || name2 == null){
-            alert("Enter Your Name");
-            return false;
+
+    <script>
+        function residential() {
+            event.preventDefault();
+            const name1 = document.querySelector("#name").value;
+            if (name1 == null) {
+                alert("Enter the Door Number")
+                return false;
+            }
+
+            const address1 = document.querySelector("#address").value;
+            if (address1 == "") {
+                alert("Enter street Name")
+                return false;
+            }
+            const pincode1 = document.querySelector("#pincode").value;
+            if (pincode1 == "") {
+                alert("Enter the city name")
+                return false;
+            }
+            const Landmark1 = document.querySelector("#landmark").value;
+            if (Landmark1 == "") {
+                alert("Enter the state")
+                return false;
+            }
+            const phoneno1 = document.querySelector("#phoneno").value;
+            if (phoneno1 == "") {
+                alert("Enter the phone number")
+                return false;
+            }
+
+            let userobj = {
+                "name1": name1,
+                "address1": address1,
+                "pincode1": pincode1,
+                "Landmark1": Landmark1,
+                "phoneno1": phoneno1,
+            };
+
+            //console.log(userobj)
+            localStorage.setItem('address', JSON.stringify(userobj));
+            alert("successful");
+            window.location.href = "bill.html";
+
         }
-    }
+
     </script>
+
 </body>
 
 </html>
